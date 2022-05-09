@@ -54,7 +54,7 @@ def set_page_header(status):
 
     # image
     with c1:
-        photo = Image.open('Real Trado.png')
+        photo = Image.open('real_estate_project.jpg')
         st.image(photo)
 
     # title and subtitle
