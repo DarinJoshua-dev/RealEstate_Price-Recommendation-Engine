@@ -66,7 +66,14 @@ def set_page_header(status):
                     'font-weight: bold;' \
                     'font-style: normal;' \
                     'text-align: left;">' \
-                    'Real Trado Recommendation Investment Dashboard</p> </div>'
+                    'Real Trado Investment Dashboard</p> </div>' \
+                    '<div><p style="font-family:sans-serif;' \
+                    'Recommendation and Price Comparison Engine</p> </div>' \
+                    'color:#795938 ;' \
+                    'font-size: 40px;' \
+                    'font-weight: bold;' \
+                    'font-style: normal;' \
+                    'text-align: left;">' 
         st.markdown(HR_format, unsafe_allow_html=True)
     
     return None
