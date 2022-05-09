@@ -46,7 +46,7 @@ def main():
 def set_page_header(status):
     
     # Visualization Setup
-    st.set_page_config(page_title='Real Trado Recommend', page_icon='real_estate_project.jpg',
+    st.set_page_config(page_title='Real Trado Recommend', page_icon='Real Trado.png',
                 layout='wide', initial_sidebar_state='expanded')
     
     #Set header
@@ -54,19 +54,19 @@ def set_page_header(status):
 
     # image
     with c1:
-        photo = Image.open('real_estate_project.jpg')
+        photo = Image.open('Real Trado.png')
         st.image(photo)
 
     # title and subtitle
     with c2:
         st.write('')
         HR_format = '<div> <p style="font-family:sans-serif;' \
-                    'color:#000055 ;' \
+                    'color:#105088 ;' \
                     'font-size: 40px;' \
                     'font-weight: bold;' \
                     'font-style: normal;' \
                     'text-align: left;">' \
-                    'Real Estate Investment Dashboard</p> </div>'
+                    'Real Trado Recommendation Investment Dashboard</p> </div>'
         st.markdown(HR_format, unsafe_allow_html=True)
     
     return None
@@ -80,13 +80,6 @@ def set_page_footer():
     st.markdown('The **Recommendation Report Dashboard** allows for a business manager to check his required report on business problems presented last meeting.')
     st.write('')
     
-    # Additional Info Section
-    st.markdown('---')
-    st.subheader("Data Analysis Project Info:")
-    
-    st.markdown('The macro and report dashboards visualization is part of [Real Estate Investment Recommendation System](https://github.com/MikeMadeira/HouseSales-RecommendationSystem) project on github made by **Michael Madeira**.')
-    st.markdown('The main results and procedure can be found on the link above.')
-    st.write('')
     
     
 def set_report_sidebar(data):
