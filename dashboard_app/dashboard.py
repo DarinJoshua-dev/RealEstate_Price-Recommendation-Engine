@@ -46,7 +46,7 @@ def main():
 def set_page_header(status):
     
     # Visualization Setup
-    st.set_page_config(page_title='Real Trado Recommend', page_icon='Real Trado.png',
+    st.set_page_config(page_title='Real Trado Recommend', page_icon='real_estate_project.jpg',
                 layout='wide', initial_sidebar_state='expanded')
     
     #Set header
