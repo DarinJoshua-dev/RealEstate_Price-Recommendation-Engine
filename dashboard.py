@@ -15,6 +15,13 @@ import time
 import plotly.express as px
 from matplotlib import pyplot as plt
 
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
     
 def main():
     
