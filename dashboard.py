@@ -19,12 +19,6 @@ hide_streamlit_style = """
             <style>
             #MainMenu {visibility: hidden;}
             footer {visibility: hidden;}
-            footer:after{
-                content: '2022 Real Trado Inc.';
-                display:block;
-                position:relative;
-                color:blue;
-            }
             </style>
             """   
 def main():
@@ -77,7 +71,7 @@ def set_page_header(status):
                     'font-weight: bold;' \
                     'font-style: normal;' \
                     'text-align: left;">' \
-                    'Real Trado Investment Dashboard <br> **AI** Recommendation & Price Comparison Engine</p> </div>' 
+                    'Real Trado Investment Dashboard <br> AI Recommendation & Price Comparison Engine</p> </div>' 
         st.markdown(HR_format, unsafe_allow_html=True)
     
     return None
@@ -91,6 +85,8 @@ def set_page_footer():
     st.markdown('The **Recommendation Report Dashboard** allows the clients to check his required report on various data and recommedation.')
     
     st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+    url = "http://localhost:3000/"
+    st.markdown("[Back to Home Page](%s)" % url)
     st.write('')
     
     
