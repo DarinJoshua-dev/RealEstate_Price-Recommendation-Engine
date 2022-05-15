@@ -15,7 +15,12 @@ import time
 import plotly.express as px
 from matplotlib import pyplot as plt
 
-    
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """   
 def main():
     
     status = 'initial_page'
@@ -78,6 +83,8 @@ def set_page_footer():
     st.markdown('The **Macro Dashboard** allows for a business manager to check a data overview and do some basic statistical analysis.')
     
     st.markdown('The **Recommendation Report Dashboard** allows for a business manager to check his required report on business problems presented last meeting.')
+    
+    st.markdown(hide_streamlit_style, unsafe_allow_html=True)
     st.write('')
     
     
