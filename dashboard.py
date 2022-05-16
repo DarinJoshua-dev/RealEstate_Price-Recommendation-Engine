@@ -85,7 +85,7 @@ def set_page_footer():
     st.markdown('The **Recommendation Report Dashboard** allows the clients to check his required report on various data and recommedation.')
     
     st.markdown(hide_streamlit_style, unsafe_allow_html=True)
-    url = "http://localhost:3000/"
+    url = "https://real-trado-dapp.vercel.app/"
     st.markdown("[Back to Home Page](%s)" % url)
     st.write('')
     
