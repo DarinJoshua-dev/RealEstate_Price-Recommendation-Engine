@@ -1,6 +1,6 @@
 # Real Estate Price & Recommendation Engine  
 
-An Investment dashboard which is also a part of Real Trado DApp and it uses AI and Data Analysis to recommend and check price predictions and comparisons for effective utilization of buying and selling of real estate.
+An Investment Dashboard which is also a part of Real Trado DApp. It uses AI and Data Analysis to give recommendations and check price predictions and comparisons for effective utilization of buying and selling of real estate properties.
 
 ## Part of Real Trado
 
